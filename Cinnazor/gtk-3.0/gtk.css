@@ -2015,7 +2015,7 @@ background-color: rgba( 20, 20, 20, 0.9);
 
 .nautilus-window.maximized .floating-bar, .nautilus-window.maximized .nautilus-list-view, .nautilus-window.tiled .floating-bar, .nautilus-window.tiled .nautilus-list-view, .nautilus-window.fullscreen .floating-bar, .nautilus-window.fullscreen .nautilus-list-view { border-bottom-right-radius: 0; border-bottom-left-radius: 0; }
 .nautilus-window headerbar {
-  background-image: -gtk-scaled(url("assets/lm-logo.png"), url("assets/lm-logo.png"));
+  background-image: image(-gtk-recolor(url("assets/archlinux-icon-crystal-64.svg")));
   background-size: 48px auto;
   background-position: left bottom;
   background-repeat: no-repeat;
